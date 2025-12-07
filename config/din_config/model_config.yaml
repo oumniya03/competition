@@ -33,10 +33,11 @@ DIN_default: # This is a config template
     din_use_softmax: False
     net_dropout: 0
     batch_norm: True
-    epochs: 100
+    epochs: 10
     shuffle: True
     seed: 20242025
     monitor: "AUC"
     monitor_mode: 'max'
     max_len: 64
     accumulation_steps: 1
+
